@@ -18,7 +18,7 @@ const Card = (props) =>  {
                       width: '90%',
                       objectFit: 'cover',
                       cursor: 'pointer'
-              }}></img>
+              }} alt={props.description}></img>
               <p className="display-4 fw-bold text-light" style={{marginTop: "-25%", overflow: "visible"}}>{props.name}</p>
           </div>
       </div>}
