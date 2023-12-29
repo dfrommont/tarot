@@ -11,46 +11,31 @@
     color: var(--yellow);
   }
   10% {
-    color: var(--yellow);
-  }
-  18% {
-    color: var(--yellow);
-  }
-  20% {
     color: var(--orange);
   }
-  22% {
+  20% {
     color: var(--yellow);
   }
   30% {
-    color: var(--yellow);
+    color: var(--orange);
   }
   40% {
     color: var(--yellow);
   }
   50% {
-    color: var(--yellow);
+    color: var(--orange);
   }
   60% {
     color: var(--yellow);
   }
   70% {
-    color: var(--yellow);
+    color: var(--orange);
   }
   80% {
     color: var(--yellow);
   }
-  88% {
-    color: var(--yellow);
-  }
   90% {
-    fcolor: var(--orange);
-  }
-  92% {
-    color: var(--yellow);
-  }
-  100% {
-    color: var(--yellow);
+    color: var(--orange);
   }
 }
 
