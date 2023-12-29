@@ -5,3 +5,66 @@
   --grey: #373f47;
   --black: #01161e;
 }
+
+@keyframes title_flicker {
+  0% {
+    color: var(--yellow);
+  }
+  10% {
+    color: var(--yellow);
+  }
+  18% {
+    color: var(--yellow);
+  }
+  20% {
+    color: var(--orange);
+  }
+  22% {
+    color: var(--yellow);
+  }
+  30% {
+    color: var(--yellow);
+  }
+  40% {
+    color: var(--yellow);
+  }
+  50% {
+    color: var(--yellow);
+  }
+  60% {
+    color: var(--yellow);
+  }
+  70% {
+    color: var(--yellow);
+  }
+  80% {
+    color: var(--yellow);
+  }
+  88% {
+    color: var(--yellow);
+  }
+  90% {
+    fcolor: var(--orange);
+  }
+  92% {
+    color: var(--yellow);
+  }
+  100% {
+    color: var(--yellow);
+  }
+}
+
+#title {
+  animation-name: title_flicker;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  -moz-animation-timing-function: steps(1, end);
+  -ms-animation-timing-function: steps(1, end);
+  -o-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+
+html {
+  overflow-x: hidden;
+}
